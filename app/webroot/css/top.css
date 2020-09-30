@@ -1,0 +1,313 @@
+@charset "utf-8";
+/*--- top customaize ---*/
+.h2_01 {
+width: 720px;
+height: 20px;
+margin-bottom: 20px;
+}
+.h2_01 .custom_01 {
+float: left;
+margin: 0;
+}
+.h2_01 .custom_02 {
+float: right;
+margin: 2px 0 0 0;
+}
+.cnt_01 {
+background: url("/img/top_images/001_bg_001.png") no-repeat;
+height: 210px;
+width: 720px;
+position: relative;
+/*margin: 21px 0 22px 0;*/
+}
+.cnt_01_txt {
+position: absolute;
+left: 330px;
+top: 110px;
+}
+.btn_more {
+position: absolute;
+bottom: 20px;
+right: 20px;
+}
+.logo_01 {
+position: absolute;
+left: 20px;
+top: 40px;
+}
+
+/*--- top customaize ---*/
+.cnt_02 {
+background: #c5e7fa;
+border-radius: 4px;
+width: 680px;
+position: relative;
+padding: 20px;
+margin-bottom: 40px;
+}
+.cnt_02Inr_01 {
+width: 300px;
+padding: 0;
+float: left;
+}
+.cnt_02Inr_01 img {
+border-radius:5px;
+}
+.cnt_02Inr_02 {
+float: right;
+width: 360px;
+height: auto;
+}
+.ophouse_01{
+width: 145px;
+float: left;
+padding: 0 30px 0 2px;
+margin: 0;
+}
+.ophouse_02 {
+width: 160px;
+float: right;
+margin: -20px 0 0 0;
+}
+.ophouse_02 p span {
+font-size: 1.42em;
+}
+.cnt_02_date {
+font-size: 20px;
+margin: 0;
+height: 20px;
+clear: both;
+padding-top: 18px;
+}
+
+.cnt_02_txt_01 {
+margin:0;
+padding: 5px 0 7px 0;
+}
+.cnt_02_txt_02 {
+margin: 0;
+/*padding-right: 180px;
+float: right;*/
+float:left;
+margin-left:15px;
+}
+.cnt_02_txt_link {
+	margin-top:5px;
+}
+.cnt_02_title{
+display: block;
+color: #ffffff;
+background-color: #6e8998;
+/*width: 60px;*/
+line-height: 24px;
+text-align: center;
+float: left;
+margin: 0 0 9px 0;
+padding: 2px 7px;
+}
+.cnt_02_txt_03 {
+font-size: 0.85em;
+clear: both;
+padding-left: 2px;
+margin-bottom: 0px;
+}
+.cnt_02_add {
+margin-bottom: 0;
+font-size: 0.85em;
+width: 260px;
+}
+.cnt_02_add_01 {
+float: left;
+}
+.cnt_02_add_02{
+float: right;
+width: 220px;
+line-height: 22px;
+}
+.cnt_02_add_p {
+font-size: 0.85em;
+}
+.cnt_02Inr_02 .btn_more {
+text-align: right;
+margin: 5px 0 0;
+height: 26px;
+position: static;
+}
+
+
+/*----------cnt_003-----------*/
+.cnt_03{
+width: 720px;
+margin: 0 0 20px;
+}
+.cnt_03_left {
+float: left;
+width: 345px;
+margin-right: 30px;
+}
+.cnt_03_right {
+float: right;
+width: 345px;
+}
+/*--- heading ---*/
+.h2_02{
+margin-bottom: 15px;
+}
+.cnt_03_h2_01 {
+float: left;
+padding: 7px 0 0;
+}
+.cnt_03_h2_02 {
+float: right;
+margin: 0;
+}
+
+.cnt_03Inr_01 {
+width: 345px;
+padding: 0;
+float: left;
+margin-bottom: 10px;
+}
+.cnt_03Inr_01 a {
+position:relative;
+z-index:1;
+}
+.cnt_03Inr_02_left {
+width: 345px;
+margin-right: 30px;
+position: relative;
+}
+.cnt_03Inr_02_right {
+width: 345px;
+position: relative;
+}
+/*
+.cnt_03_title {
+display: block;
+color: #ffffff;
+line-height: 24px;
+text-align: center;
+float: left;
+margin: 0 0 9px 0;
+font-size: 0.85em;
+}
+.cnt_03_title.cate01{
+width: 60px;
+background-color: #6e8998;
+}
+.cnt_03_title.cate02{
+width: 60px;
+background-color: #6e9870;
+}
+.cnt_03_title.cate03{
+width: 80px;
+background-color: #98856e;
+}
+*/
+.cnt_03_txt_02 {
+margin: 0;
+width: 170px;
+padding-right: 85px;
+float: right;
+font-size: 1.14em;
+color: #e61a68;
+}
+#cnt_03_txt_02_ms {
+margin: 0;
+padding-right: 180px;
+float: right;
+font-size: 1.14em;
+color: #e61a68;
+}
+
+.cnt_03_txt_03 {
+clear: both;
+font-size: 0.85em;
+margin: 0;
+padding-left: 2px;
+}
+.btn_more_02 {
+position: absolute;
+width: 70px;
+height: 70px;
+top: 182px;
+right: 1px;
+}
+.cnt_03_add {
+margin-bottom: 0;
+font-size: 0.85em;
+padding-left: 2px;
+}
+.cnt_03_add_01{
+float: left;
+}
+.cnt_03_add_02 {
+line-height: 22px;
+width: 255px;
+}
+
+/*--------------------------------------------------
+	Add
+--------------------------------------------------*/
+
+.cnt_02_txt_02 {
+color:#e61a68;
+font-size:1.14em;
+line-height: 1.8em;
+}
+
+.h2_03{
+margin-bottom: 15px;
+background-image:url('/img/line_dot_bg.png');
+background-repeat:repeat-x;
+}
+
+.cnt_03_h2_tl {
+float: left;
+background:#FFFFFF;
+padding-right:20px;
+padding-top:7px;
+font-weight:bold;
+}
+.cnt_03_h2_tr {
+float: right;
+background:#000000;
+border-radius:15px;
+padding:7px 20px;
+color:#FFFFFF;
+font-size:0.85em;
+}
+
+.cnt_03Inr_01 img {
+border-radius:3px;
+}
+
+/* 2016/03/04 トップページおすすめ物件ランダム表示 */
+.cnt_03_col {
+float: left;
+margin-bottom: 20px;
+}
+.cnt_03_col:nth-child(2n) {
+margin-right: 30px;
+}
+
+/* 2016/03/24 リノベーション特集物件表示 */
+.cnt_03_img {
+float: left;
+margin-bottom: 20px;
+}
+.cnt_03_img:nth-child(2n) {
+margin-right: 30px;
+}
+.cnt_03_img .main {
+margin-bottom: 10px;
+}
+.cnt_03_img .main img {
+	border-radius: 3px;
+}
+.cnt_03_img .title {
+margin-bottom: 0;
+}
+
+
+

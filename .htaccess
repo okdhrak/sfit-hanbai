@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+   RewriteEngine on
+   RewriteRule    ^$ app/webroot/    [L]
+   RewriteRule    (.*) app/webroot/$1 [L]
+</IfModule>
+
+#IP
+#order deny,allow
+#deny from all
+#allow from 127.0.0.1      #localhost
+#allow from 61.194.110.5 #泉ガーデン
+#ErrorDocument 403 http://sfit-hanbai.com

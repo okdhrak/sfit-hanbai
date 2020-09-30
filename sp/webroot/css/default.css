@@ -1,0 +1,138 @@
+@charset "utf-8";
+
+/*==================================================
+	Universal Reset
+	Default Style
+	hasLayout
+==================================================*/
+
+/*--------------------------------------------------
+	Universal Reset
+--------------------------------------------------*/
+html,body,div,span,h1,h2,h3,h4,h5,h6,p,blockquote,
+pre,a,del,ins,em,img,hr,q,strong,sub,sup,dl,dt,dd,
+ol,ul,li,fieldset,form,label,legend,table,caption,
+tbody,tfoot,thead,tr,th,td{
+margin:0;
+padding:0;
+}
+
+h1,h2,h3,h4,h5,h6{
+font-weight:normal;
+font-size:100%;
+line-height: 1em;
+}
+
+ul,ol{
+list-style:none;
+}
+
+table,th,td{
+border:0 none;
+}
+
+th{
+font-weight:normal;
+text-align:left;
+}
+
+caption{
+text-align:left;
+}
+
+strong{
+font-weight:normal;
+}
+
+em{
+font-style:normal;
+}
+
+img{
+border:0;
+vertical-align:top;
+}
+
+dt{
+font-weight:normal;
+}
+
+fieldset{
+border:0 none;
+}
+
+legend{
+display:none;
+}
+
+textarea{
+font-size:1em;
+}
+
+/*--------------------------------------------------
+	Default Style
+--------------------------------------------------*/
+body{
+font-size:175.02%;/*要変更　案件によって指定を変える*/
+background:#fff;/*要変更　案件によって指定を変える*/
+margin-bottom:0;
+color:#221815;
+font-family: "メイリオ", Meiryo,"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",  Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+-webkit-text-size-adjust: 100%;
+word-break: break-all;
+line-height:1.5em;
+}
+
+em{
+font-style:italic;
+}
+
+strong{
+font-weight:bold;
+}
+
+a,
+a:link{
+color:#3497ff;
+text-decoration:none;
+}
+
+a:visited{
+
+}
+
+a:hover,
+a:active,
+a:focus{
+color: #3497ff;
+text-decoration:underline;
+}
+
+p,ul,ol,dl,table{
+margin-bottom: 1.71em;
+}
+
+sup{
+vertical-align:top;
+}
+
+sub{
+vertical-align:baseline;
+}
+
+/*--------------------------------------------------
+	hasLayout
+--------------------------------------------------*/
+div,ul,dl,dt,dd,p,
+h1,h2,h3,h4,h5,h6{
+zoom:1;
+}
+
+article,aside,dialog,figure,footer,
+header,hgroup,menu,nav,section{
+display:block;
+}
+
+iframe {
+	display:none;
+}

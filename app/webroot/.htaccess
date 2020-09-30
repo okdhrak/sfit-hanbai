@@ -1,0 +1,27 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^(.*)$ index.php [QSA,L]
+</IfModule>
+
+#error_print
+php_flag display_errors "Off"
+
+#301
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www\.sfit-hanbai\.com
+RewriteRule (.*) http://sfit-hanbai.com/$1 [R=301,L]
+
+#use_PHP
+#AddType application/x-httpd-php .htm .html
+
+#IP
+#order deny,allow
+#deny from all
+#allow from localhost           #localhost
+#allow from 61.194.110.5        #êÚÉKÅ[ÉfÉì
+
+#ä¬ã´ïœêî
+#localhost,stage,production
+SetEnv WEB_APP_ENV 'production'
